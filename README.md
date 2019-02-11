@@ -1,2 +1,2 @@
-# mysite
+# Jananissite
 my website
