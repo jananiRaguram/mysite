@@ -13,12 +13,11 @@
 		body {
 			background-color: white;
 			margin: 0;
+			overflow-y: scroll;
 		}
 
 		h2 {
 			background-color: #FBEAEB;
-			background-size: auto;
-			display: block;
 			text-align: left;
 			padding-top: 60px;
 			padding-left: 50px;
@@ -28,7 +27,6 @@
 			border-bottom-style: solid;
 			font-family: plaquette, sans-serif;
 			font-size: 30px;
-
 			}
 	
 		ul { 
@@ -36,11 +34,13 @@
 		 	overflow: none;
 		 	text-align: center;
 		 	background-color: #FBEAEB;
-		 	
+		 }
+
+		 li {
+		 	float: left;
 		 }
 		 
-		 li a {
-		 	float: left;
+		 li a{
 		 	display: block;
 		 	color: #2F3C7E;
 		 	padding: 12px 20px;
@@ -48,7 +48,6 @@
 		 	position: relative;
 		 	left: 300px;
 		 	bottom: 37px;
-		 	text-decoration:none; 
 		 	font-family: plaquette, sans-serif;
 			font-size: 18px;
 		 }
@@ -67,11 +66,8 @@
 		 	color: #2F3C7E;
 		 	font-family: plaquette, sans-serif;
 		 	font-size: 30px;
-		 	background-color: #FBEAEB;
 		 	padding-left:30px;
 		 	padding-right: 30px;
-		 	height: 40px;
-
 		 }
 		 .vl { 
 		 	width: 5px;
@@ -92,25 +88,44 @@
 		 	font-family: plaquette, sans-serif;
 		 	position: relative;
 		 	right:200px;
-		 	bottom: 136px;
+		 	bottom: 81px;
 		 	float: right;
 		 }
 
-		  .sidenav a{
-		  	display: block;
-		  	background-color: #FBEAEB;
-		  	color: black;
-		   	position: fixed;
-		   	height: 50%;
-		  	width: 200px;
-		  	top:200px;
-		  	left: 175px;		  	
-		  	padding-top: 20px;
-		  	
+		 .sidenav {
+		 	position: fixed;
+		 	top: 200px;
+		 	float: left;
+		 	left: 205px;
+		 	width: 150px;
 
-		  }
+		 }
 
-		 
+		.sidenav a {
+			display: block;
+		 	color: #2F3C7E;
+		 	font-family: plaquette, sans-serif;
+			font-size: 20px;
+			text-decoration: none;
+			margin-top: 30px;
+		}
+
+		.sidenav a:hover{
+			text-decoration: underline;
+		}
+
+
+		.sticky {
+			position: relative;
+			right: 400px;
+			top:0px;
+			font-family: plaquette, sans-serif;
+			font-size: 25px;
+			color: #2F3C7E;
+			margin-top: 100px;
+			float: right;
+		}
+
 
 	</style>
 
@@ -133,10 +148,15 @@
 	</div>
 
 	<div class="sidenav">
-		<a href="#">week 1</a>
-		<a href="#">week 2</a>
-		<a href="#">week 3</a>
+		<a href="#">Week 1</a>
+		<a href="#">Week 2</a>
+		<a href="#">Week 3</a>
+	</div> 
+
+	<div class="sticky">
+		<h3>Week 1</h3>
 	</div>
+	
 
 	
 </body>
