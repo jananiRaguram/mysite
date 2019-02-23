@@ -10,6 +10,7 @@
 			background-color: white;
 			margin: 0;
 			overflow-y: scroll;
+			overflow-x: hidden;
 		}
 
 		h2 {
@@ -37,16 +38,17 @@
 		 }
 		 
 		 li a{
-		 	display: block;
+		 	float: left;
+		 	display: inline;
 		 	color: #2F3C7E;
 		 	padding: 12px 20px;
 		 	margin:-55px 0px 40px 15px;
 		 	position: relative;
-		 	left: 300px;
+		 	left: 420px;
 		 	bottom: 37px;
+		 	text-decoration:none; 
 		 	font-family: plaquette, sans-serif;
 			font-size: 18px;
-			text-decoration:none;
 
 		 }
 
@@ -71,10 +73,10 @@
 		 	width: 5px;
 		 	background-color:#2F3C7E;
 		 	position: absolute;
-		 	top: 45px;
-		 	bottom: 90px;
-		 	left: 215px;
-		 	height: 45px;
+		 	top: 52px;
+		 	bottom: 100px;
+		 	left: 400px;
+		 	height: 40px;
 		 	border-top-right-radius: 5px;
 		 }
 
@@ -178,4 +180,33 @@
 		 	right: 410px;
 		 	border-color: #2F3C7E;
 		 	padding-bottom: 200px;
+		 }
+
+		 .social {
+		 	position: absolute;
+		 	font-family: plaquette, sans-serif;
+		 	height: 50px;
+		 	bottom: -1600px;
+		 	height: 8%;
+		 	width: 100%;
+       		color: #2F3C7E;
+       		background-color: #FADAEA;
+		 }
+
+		 .social li{
+		 	position: relative;
+		 	float: left;
+		 	bottom: -7px;
+		 	margin-right: 20px;
+		 	margin-left: 30px;
+		 	left: 65px;
+		 }
+
+		 .social h3 {
+		 	margin-left: 9px;
+		 	position: absolute;
+		 	left: 0px;
+		 	font-size: 20px;
+       		bottom: -5px;
+
 		 }
