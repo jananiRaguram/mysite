@@ -39,7 +39,7 @@
 		 	padding: 12px 20px;
 		 	margin:-55px 0px 40px 15px;
 		 	position: relative;
-		 	left: 300px;
+		 	left: 410px;
 		 	bottom: 37px;
 		 	text-decoration:none; 
 		 	font-family: plaquette, sans-serif;
@@ -54,14 +54,14 @@
 		 }
 
 		.recent-list-style {
-			list-style-type: none;
-		 	background-color: white;
+		 	background-color: transparent;
 		 	position: relative;
 		 	left: -152px;
 		 	top: 45px;
 		 	font-family: plaquette, sans-serif;
 		 	color: #2F3C7E; 
-			font-size: 15px;  	
+			font-size: 15px; 
+			text-align: center; 	
 		 }
 
 		 .vl { 
@@ -70,7 +70,7 @@
 		 	position: absolute;
 		 	top: 52px;
 		 	bottom: 100px;
-		 	left: 215px;
+		 	left: 400px;
 		 	height: 40px;
 		 	border-top-right-radius: 5px;
 		 }
@@ -89,4 +89,26 @@
 		 	border:solid;
 		 	display: block;
 		 	position: relative;
+		 }
+
+		 .social {
+		 	position: absolute;
+		 	padding: 0px 10px 0px 10px;
+       		background: #FADAEA ;
+       		color: #2F3C7E;
+       		bottom: -90px;
+		 	font-family: plaquette, sans-serif;
+		 	left:0px;
+		 	height: 8%;
+		 	width: 100%;
+		 }
+
+		 .social li{
+		 	float: left;
+		 	position: relative;
+		 	left: 60px;
+		 	bottom: 39px;
+		 	margin-right: 20px;
+		 	margin-left: 30px;
+		 	background-color: #FADAEA;
 		 }
