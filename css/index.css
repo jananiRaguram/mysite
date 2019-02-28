@@ -1,0 +1,114 @@
+* {
+			box-sizing: border-box;
+		}
+
+		body {
+			background-color: white;
+			margin: 0;
+			overflow: scroll;
+			overflow-x: hidden;
+		}
+
+		h2 {
+			background-color: #FBEAEB;
+			background-size: auto;
+			display: block;
+			text-align: left;
+			padding-top: 60px;
+			padding-left: 50px;
+			position: relative;
+			bottom: 30px;
+			color: #2F3C7E;
+			border-bottom-style: solid;
+			font-family: plaquette, sans-serif;
+			font-size: 30px;
+			}
+	
+		ul { 
+		 	list-style-type: none;
+		 	overflow: none;
+		 	text-align: center;
+		 	background-color: #FBEAEB;
+		 	
+		 }
+		 
+		 li a {
+		 	float: left;
+		 	display: inline;
+		 	color: #2F3C7E;
+		 	padding: 12px 20px;
+		 	margin:-55px 0px 40px 15px;
+		 	position: relative;
+		 	left: 410px;
+		 	bottom: 37px;
+		 	text-decoration:none; 
+		 	font-family: plaquette, sans-serif;
+			font-size: 18px;
+		 }
+
+		 li a:hover {
+		 	background-color: #FADAEA;
+		 	color: #263490;
+		 	border-bottom: solid;
+		 	max-height: 37px;
+		 }
+
+		.recent-list-style {
+		 	background-color: transparent;
+		 	position: relative;
+		 	left: -190px;
+		 	top: 45px;
+		 	font-family: plaquette, sans-serif;
+		 	color: #2F3C7E; 
+			font-size: 15px; 
+			text-align: center; 	
+		 }
+
+		 .vl { 
+		 	width: 5px;
+		 	background-color:#2F3C7E;
+		 	position: absolute;
+		 	top: 52px;
+		 	bottom: 100px;
+		 	left: 400px;
+		 	height: 40px;
+		 	border-top-right-radius: 5px;
+		 }
+		 
+		 .links{
+		 	position: relative;
+		 	left: 300px;
+		 	top:80px;
+		 	display: block;
+		 	margin-left: 40px;
+		 	float: left;
+		 	text-align: center;
+		 }
+		 .links img{
+		 	margin-right: 30px;
+		 	border:solid;
+		 	display: block;
+		 	position: relative;
+		 }
+
+		 .social {
+		 	position: absolute;
+		 	padding: 0px 10px 0px 10px;
+       		background: #FADAEA ;
+       		color: #2F3C7E;
+       		bottom: -90px;
+		 	font-family: plaquette, sans-serif;
+		 	left:0px;
+		 	height: 8%;
+		 	width: 100%;
+		 }
+
+		 .social li{
+		 	float: left;
+		 	position: relative;
+		 	left: 60px;
+		 	bottom: 39px;
+		 	margin-right: 20px;
+		 	margin-left: 30px;
+		 	background-color: #FADAEA;
+		 }
