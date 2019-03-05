@@ -10,7 +10,7 @@
 		}
 
 		.pgtitle{
-			background-color: #FBEAEB;
+			background-color: #FADAEA;
 			background-size: auto;
 			display: block;
 			text-align: left;
@@ -47,7 +47,7 @@
 		 }
 
 		 li a:hover {
-		 	background-color: #FADAEA;
+		 	background-color: #FBEAEB;
 		 	color: #263490;
 		 	border-bottom: solid;
 		 	max-height: 37px;
