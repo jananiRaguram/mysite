@@ -7,20 +7,20 @@
 		}
 
 		body {
-			background-color: white;
+			background-color: #CAE4DB;
 			margin: 0;
 			overflow-y: scroll;
 			overflow-x: hidden;
 		}
 
 		h2 {
-			background-color: #FADAEA;
+			background-color: #33363b;
 			text-align: left;
 			padding-top: 60px;
 			padding-left: 50px;
 			position: relative;
 			bottom: 30px;
-			color: #2F3C7E;
+			color: #4cb69f;
 			border-bottom-style: solid;
 			font-family: plaquette, sans-serif;
 			font-size: 30px;
@@ -30,7 +30,6 @@
 		 	list-style-type: none;
 		 	overflow: none;
 		 	text-align: center;
-		 	background-color: #FBEAEB;
 		 }
 
 		 li {
@@ -40,7 +39,7 @@
 		 li a{
 		 	float: left;
 		 	display: inline;
-		 	color: #2F3C7E;
+		 	color: #4cb69f;
 		 	padding: 12px 20px;
 		 	margin:-55px 0px 40px 15px;
 		 	position: relative;
@@ -53,8 +52,8 @@
 		 }
 
 		 li a:hover {
-		 	background-color: #FBEAEB;
-		 	color: #263490;
+		 	background-color: #CAE4DB;
+		 	color: #33363b;
 		 	border-bottom: solid;
 		 	max-height: 37px;
 		 }
@@ -63,7 +62,7 @@
 		 	float: left;
 		 	position: fixed;
 		 	left: 150px;
-		 	color: #2F3C7E;
+		 	color:#33363b;
 		 	font-family: plaquette, sans-serif;
 		 	font-size: 30px;
 		 	padding-left:30px;
@@ -71,7 +70,7 @@
 		 }
 		 .vl { 
 		 	width: 5px;
-		 	background-color:#2F3C7E;
+		 	background-color: #CAE4DB;
 		 	position: absolute;
 		 	top: 52px;
 		 	bottom: 100px;
@@ -90,7 +89,7 @@
 
 		.sidenav a {
 			display: block;
-		 	color: #2F3C7E;
+		 	color: #33363b;
 		 	font-family: plaquette, sans-serif;
 			font-size: 20px;
 			text-decoration: none;
@@ -106,7 +105,7 @@
 			right: 400px;
 			font-family: plaquette, sans-serif;
 			font-size: 25px;
-			color: #2F3C7E;
+			color: #33363b;
 			margin-top: 100px;
 			float: right;
 		}
@@ -185,12 +184,11 @@
 		 .social {
 		 	position: absolute;
 		 	font-family: plaquette, sans-serif;
-		 	height: 50px;
 		 	bottom: -1600px;
 		 	height: 8%;
 		 	width: 100%;
-       		color: #2F3C7E;
-       		background-color: #FADAEA;
+       		color: white;
+       		background-color: #33363b;
 		 }
 
 		 .social li{
@@ -208,5 +206,6 @@
 		 	left: 0px;
 		 	font-size: 20px;
        		bottom: -5px;
+       		color: white;
 
 		 }
