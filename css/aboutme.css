@@ -3,14 +3,14 @@
 	}
 
 		body {
-			background-color: white;
+			background-color: #CAE4DB;
 			margin: 0;
 			overflow: scroll;
 			overflow-x: hidden;
 		}
 
 		.pgtitle{
-			background-color: #FADAEA;
+			background-color: #33363b;
 			background-size: auto;
 			display: block;
 			text-align: left;
@@ -18,7 +18,7 @@
 			padding-left: 50px;
 			position: relative;
 			bottom: 30px;
-			color: #2F3C7E;
+			color: #4cb69f;
 			border-bottom-style: solid;
 			font-family: plaquette, sans-serif;
 			font-size: 30px;
@@ -28,14 +28,13 @@
 		 	list-style-type: none;
 		 	overflow: none;
 		 	text-align: center;
-		 	background-color: #FBEAEB;
 		 	
 		 }
 		 
 		 li a {
 		 	float: left;
 		 	display: inline;
-		 	color: #2F3C7E;
+		 	color: #4cb69f;
 		 	padding: 12px 20px;
 		 	margin:-55px 0px 40px 15px;
 		 	position: relative;
@@ -47,15 +46,15 @@
 		 }
 
 		 li a:hover {
-		 	background-color: #FBEAEB;
-		 	color: #263490;
+		 	background-color: #CAE4DB;
+		 	color: #33363b;
 		 	border-bottom: solid;
 		 	max-height: 37px;
 		 }
 
 		 .vl { 
 		 	width: 5px;
-		 	background-color:#2F3C7E;
+		 	background-color: #CAE4DB;
 		 	position: absolute;
 		 	top: 52px;
 		 	bottom: 100px;
@@ -68,13 +67,14 @@
 		 	float: left;
 		 	position: fixed;
 		 	left: 150px;
-		 	color: #2F3C7E;
+		 	color: #00303F;
 		 	font-family: plaquette, sans-serif;
 		 	font-size: 30px;
 		 	padding-left:30px;
 		 	padding-right: 30px;
 		 	top: 150px;
 		 	}
+
 		 p{
 		 	font-size:20px;
 		 	text-align: center;
@@ -90,7 +90,7 @@
 		 	margin-top: 100px;
 		 	margin-left: 60px;
 		 	font-family: plaquette, sans-serif;
-		 	color: #2F3C7E;
+		 	color: #00303F ;
 			font-size: 30px;
 		 }
 
@@ -99,7 +99,7 @@
 		 	position: relative;
 		 	left: 540px;
 		 	top: 40px;
-		 	background-color: #FBEAEB;
+		 	background-color: #f6f5f3;
 		 	padding: 20px;
 		 	padding-right: -10px;
 		 }
@@ -137,8 +137,8 @@
 		 	left: 0px;
 		 	height: 8%;
 		 	width: 100%;
-       		background-color: #FADAEA;
-       		color: #2F3C7E;
+       		background-color: #33363b;
+       		color: white;
 		 }
 
 		 .social li{
