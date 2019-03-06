@@ -81,6 +81,7 @@
 		 	margin-left: 40px;
 		 	float: left;
 		 	text-align: center;
+		 	text-decoration: none;
 		 }
 		 .links img{
 		 	margin-right: 30px;
@@ -89,6 +90,16 @@
 		 	position: relative;
 		 	color: #00303F;
 		 }
+
+		 .links a {
+		 	text-decoration: none;
+		 	color: #00303F;
+		 }
+
+		 .links a:hover {
+		 	text-decoration: underline;
+		 }
+
 
 		 .social {
 		 	position: absolute;
