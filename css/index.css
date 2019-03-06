@@ -3,14 +3,14 @@
 		}
 
 		body {
-			background-color: white;
+			background-color: #CAE4DB;
 			margin: 0;
 			overflow: scroll;
 			overflow-x: hidden;
 		}
 
 		h2 {
-			background-color: #FADAEA;
+			background-color: #33363b;
 			background-size: auto;
 			display: block;
 			text-align: left;
@@ -18,7 +18,7 @@
 			padding-left: 50px;
 			position: relative;
 			bottom: 30px;
-			color: #2F3C7E;
+			color: #4cb69f;
 			border-bottom-style: solid;
 			font-family: plaquette, sans-serif;
 			font-size: 30px;
@@ -28,14 +28,12 @@
 		 	list-style-type: none;
 		 	overflow: none;
 		 	text-align: center;
-		 	background-color: #FBEAEB;
-		 	
 		 }
 		 
 		 li a {
 		 	float: left;
 		 	display: inline;
-		 	color: #2F3C7E;
+		 	color: #4cb69f;
 		 	padding: 12px 20px;
 		 	margin:-55px 0px 40px 15px;
 		 	position: relative;
@@ -47,8 +45,8 @@
 		 }
 
 		 li a:hover {
-		 	background-color: #FBEAEB;
-		 	color: #263490;
+		 	background-color: #CAE4DB;
+		 	color: #33363b;
 		 	border-bottom: solid;
 		 	max-height: 37px;
 		 }
@@ -59,14 +57,14 @@
 		 	left: -190px;
 		 	top: 45px;
 		 	font-family: plaquette, sans-serif;
-		 	color: #2F3C7E; 
+		 	color: #00303F ; 
 			font-size: 15px; 
 			text-align: center; 	
 		 }
 
 		 .vl { 
 		 	width: 5px;
-		 	background-color:#2F3C7E;
+		 	background-color: #CAE4DB;
 		 	position: absolute;
 		 	top: 52px;
 		 	bottom: 100px;
@@ -89,13 +87,14 @@
 		 	border:solid;
 		 	display: block;
 		 	position: relative;
+		 	color: #00303F;
 		 }
 
 		 .social {
 		 	position: absolute;
 		 	padding: 0px 10px 0px 10px;
-       		background: #FADAEA ;
-       		color: #2F3C7E;
+       		background: #33363b ;
+       		color: white;
        		bottom: -90px;
 		 	font-family: plaquette, sans-serif;
 		 	left:0px;
@@ -110,5 +109,5 @@
 		 	bottom: 39px;
 		 	margin-right: 20px;
 		 	margin-left: 30px;
-		 	background-color: #FADAEA;
+		 	background-color: #33363b;
 		 }
