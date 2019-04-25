@@ -13,7 +13,7 @@ function guessNumber(){
 			guess= prompt('lower, and try again');
 		}	
 		else {
-			document.getElementById("demo").innerHTML guess= ('you got it! The number is ' + number + ".");
+			guess= alert('you got it! The number is ' + number + ".");
 			break;
 		}
 	}
