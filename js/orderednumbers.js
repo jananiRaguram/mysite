@@ -8,6 +8,6 @@ function numberOrder() {
 		return b-a;
 
 	});
-	alert(numbers);
+	document.getElementById("demo").innerHTML = numbers;
 	
 }
