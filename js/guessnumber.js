@@ -1,4 +1,5 @@
 function guessNumber(){
+
 	var number = Math.floor((Math.random()*10)+1); 
 		console.log(number);
 	
@@ -12,7 +13,7 @@ function guessNumber(){
 			guess= prompt('lower, and try again');
 		}	
 		else {
-			guess= alert('you got it! The number is ' + number + ".");
+			document.getElementById("demo").innerHTML guess= ('you got it! The number is ' + number + ".");
 			break;
 		}
 	}
