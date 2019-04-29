@@ -3,9 +3,10 @@ function biggerNumber (){
 	var numberTwo = prompt ("enter a different number");
 
 	if (numberTwo > numberOne) {
-		console.log(numberTwo + " " + "is the bigger number");
+		document.getElementById("practice1").innerHTML= (numberTwo + " " + "is the bigger than " + numberOne);
 	} else {
-		console.log(numberOne + " " + "is the bigger number");
+		document.getElementById("practice1").innerHTML= (numberOne + " " + "is the bigger than " + numberTwo);
 	}	
-	alert("check your're console")
 }	
+
+
