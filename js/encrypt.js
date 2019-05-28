@@ -7,10 +7,10 @@ function secret(){
       if(replaceVowels==sentance[i]){/*checks to see if new words have the same letters in the same place as the original. If they do change them*/
         let otherVowels = replaceVowels.replace(/e/g,"a").replace(/o/g,"i").replace(/y/g,"u").replace(/E/g,"A").replace(/O/g,"I").replace(/Y/g,"U");
         str += otherVowels + " ";
-        document.getElementById("message").innerHTML=(str.trim());
+        document.getElementById("ciphertext").innerHTML=(str.trim());
        }else{
          str += replaceVowels + " ";
-        document.getElementById("message").innerHTML= (str.trim());
+        document.getElementById("ciphertext").innerHTML= (str.trim());
 
        }
   }
