@@ -1,6 +1,6 @@
-# Jananissite
+# my website
 
-https://janani689.github.io/mysite/
 
-my website
+https://jananiraguram.github.io/mysite/
+
 
