@@ -43,11 +43,10 @@
 	<div class="vl"></div>
 
 	<div class="sidenav">
-		<a href="#mode1">Module 1</a>
-		<a href="#mode2">Module 2</a>
-		<a href="#mode3">Module 3</a>
-		<a href="#mode4">Module 4</a>
-		<a href="#mode5">Module 5</a>
+		<a href="#mode2">Module 1</a>
+		<a href="#mode3">Module 2</a>
+		<a href="#mode4">Module 3</a>
+		<a href="#mode5">Module 4</a>
 	</div> 
 	
 	<div id="mode1">
@@ -55,9 +54,15 @@
 	</div>
 
 	<div class="link1">
-		<a href="images/meme.jpg">
-			<img src="images/meme.jpg" alt="ethics_meme_image" width="500px" height="300px" >
-		</a>
+		<button onclick="biggerNumber()">Find the bigger number</button>
+			<p id='practice1'></p>
+	</div>
+
+	<div class = "link1plus">
+			<button onclick="negNumber(-2,4,5)">Find the Negative Number</button>
+			<p id= 'practice2'></p>
+		<button onclick="numberOrder()">Ordering Numbers</button>
+			<p id='practice3'></p>
 	</div>
 
 	<div id="mode2">
@@ -65,15 +70,9 @@
 	</div>
 
 	<div class="link2">
-		<button onclick="biggerNumber()">Find the bigger number</button>
-			<p id='practice1'></p>
-	</div>
-
-	<div class = "link2plus">
-			<button onclick="negNumber(-2,4,5)">Find the Negative Number</button>
-			<p id= 'practice2'></p>
-		<button onclick="numberOrder()">Ordering Numbers</button>
-			<p id='practice3'></p>
+		<button onclick="guessNumber()"> Guess The Number
+		</button>
+		<p id="findNumber"></p>
 	</div>
 
 	<div id="mode3">
@@ -81,25 +80,15 @@
 	</div>
 
 	<div class="link3">
-		<button onclick="guessNumber()"> Guess The Number
-		</button>
-		<p id="findNumber"></p>
-	</div>
-
-	<div id="mode4">
-		<h3>Module 4</h3>
-	</div>
-
-	<div class="link4">
 		<button onclick= 'lengthOfString()'>finding the length of this string</button>
 			<p id='stringLength'></p>
 		<button onclick="everyOtherLetter()">click here to capitalize everyother letter of "apple"</button>
 			<p id='stringUpper'></p>
 	</div>
-	<div id="mode5">
-		<h3>Module 5</h3>
+	<div id="mode4">
+		<h3>Module 4</h3>
 	</div>
-	<div class="link5">
+	<div class="link4">
 		<button onclick="secret()">Encrypt a message </button>
 			<p id="ciphertext"></p>
 		<button onclick="decrypt()">decrypt message</button>
