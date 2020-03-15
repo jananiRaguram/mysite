@@ -1,124 +1,125 @@
 * {
-			box-sizing: border-box;
-		}
+	box-sizing: border-box;
+}
 
-		body {
-			background-color: #CAE4DB;
-			margin: 0;
-			overflow: scroll;
-			overflow-x: hidden;
-		}
+	body {
+		background-color:#1E1E1E ;
+		margin: 0;
+		/*overflow: scroll;*/
+		overflow-x: hidden;
+	}
 
-		h2 {
-			background-color: #33363b;
-			background-size: auto;
-			display: block;
-			text-align: left;
-			padding-top: 60px;
-			padding-left: 50px;
-			position: relative;
-			bottom: 30px;
-			color: #4cb69f;
-			border-bottom-style: solid;
-			font-family: plaquette, sans-serif;
-			font-size: 30px;
-			}
+	h2 {
+		background-color: #1E1E1E;
+		background-size: auto;
+		display: block;
+		text-align: left;
+		padding-top: 60px;
+		padding-left: 50px;
+		position: relative;
+		bottom: 30px;
+		color: #4cb69f;
+		border-bottom-style: solid;
+		margin-right: 1160px; 
+		margin-left: 10px;
+		font-family: plaquette, sans-serif;
+		font-size: 30px;
+		letter-spacing: 2px;
+	}
 	
-		ul { 
-		 	list-style-type: none;
-		 	overflow: none;
-		 	text-align: center;
-		 }
+
+	.nav {
+	 	text-align: left;
+	 	overflow: none;
+	 	list-style-type: none;
+
+	}
+
+	.nav a{
+		display: block;
+		color: #4cb69f;
+		padding-top: 20px;
+		margin-left: 70px;
+		margin-right: 1300px; 
+		padding: 12px 20px;
+		position: relative;
+		text-decoration:none; 
+		font-family: dejaVu Sans Mono, monospace;
+		font-size: 22px;
+		font-weight: bold;
+		font-stretch: semi-expanded;
+		letter-spacing: 1px;
+
+	}
+
+	.nav a:hover {
+		color: white;
+		text-decoration: underline;
+	}
+
+	.nav a.active{
+		color: white;
+	}
+
+	.recent-list-style {
+	 	background-color: transparent;
+	 	position: relative;
+	 	left: -190px;
+	 	top: 45px;
+	 	font-family: plaquette, sans-serif;
+	 	color: #00303F ; 
+		font-size: 15px; 
+		text-align: center; 	
+	}
+
+	.vl { 
+		width: 5px;
+		background-color: #CAE4DB;
+		position: absolute;
+		top: 52px;
+		bottom: 100px;
+		left: 400px;
+		height: 40px;
+		border-top-right-radius: 5px;
+	}
 		 
-		 li a {
-		 	float: left;
-		 	display: inline;
-		 	color: #4cb69f;
-		 	padding: 12px 20px;
-		 	margin:-55px 0px 40px 15px;
-		 	position: relative;
-		 	left: 410px;
-		 	bottom: 37px;
-		 	text-decoration:none; 
-		 	font-family: plaquette, sans-serif;
-			font-size: 18px;
-		 }
+	.links{
+		position: relative;
+		left: 300px;
+		top:80px;
+		display: block;
+		margin-left: 40px;
+		float: left;
+		text-align: center;
+		text-decoration: none;
+	}
 
-		 li a:hover {
-		 	background-color: #CAE4DB;
-		 	color: #33363b;
-		 	border-bottom: solid;
-		 	max-height: 37px;
-		 }
+	.links img{
+		margin-right: 30px;
+		border:solid;
+		display: block;
+		position: relative;
+		color: #00303F;
+	}
 
-		.recent-list-style {
-		 	background-color: transparent;
-		 	position: relative;
-		 	left: -190px;
-		 	top: 45px;
-		 	font-family: plaquette, sans-serif;
-		 	color: #00303F ; 
-			font-size: 15px; 
-			text-align: center; 	
-		 }
+	.links a {
+		text-decoration: none;
+		color: #00303F;
+	}
 
-		 .vl { 
-		 	width: 5px;
-		 	background-color: #CAE4DB;
-		 	position: absolute;
-		 	top: 52px;
-		 	bottom: 100px;
-		 	left: 400px;
-		 	height: 40px;
-		 	border-top-right-radius: 5px;
-		 }
-		 
-		 .links{
-		 	position: relative;
-		 	left: 300px;
-		 	top:80px;
-		 	display: block;
-		 	margin-left: 40px;
-		 	float: left;
-		 	text-align: center;
-		 	text-decoration: none;
-		 }
-		 .links img{
-		 	margin-right: 30px;
-		 	border:solid;
-		 	display: block;
-		 	position: relative;
-		 	color: #00303F;
-		 }
-
-		 .links a {
-		 	text-decoration: none;
-		 	color: #00303F;
-		 }
-
-		 .links a:hover {
-		 	text-decoration: underline;
-		 }
+	.links a:hover {
+		text-decoration: underline;
+	}
 
 
-		 .social {
-		 	position: absolute;
-		 	padding: 0px 10px 0px 10px;
-       		background: #33363b ;
-       		color: white;
-       		bottom: -90px;
-		 	font-family: plaquette, sans-serif;
-		 	left:0px;
-		 	height: 8%;
-		 	width: 100%;
-		 }
+	.social a{
+		position: relative;
+		left: 60px;
+		top: 210px;
+		margin-right: 20px;
+		margin-left: 30px;
+		background-color: transparent;
+		display: block;
+	}
 
-		 .social li{
-		 	float: left;
-		 	position: relative;
-		 	left: 60px;
-		 	bottom: 39px;
-		 	margin-right: 20px;
-		 	margin-left: 30px;
-		 	background-color: #33363b;
-		 }
+
