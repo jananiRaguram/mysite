@@ -9,7 +9,7 @@ body {
 	overflow-x: hidden;
 }
 
-h2 {
+#pgtitle{
 	background-color: #1E1E1E;
 	background-size: auto;
 	display: block;
@@ -27,12 +27,23 @@ h2 {
 	letter-spacing: 2px;
 }
 
+h2{
+	color: white;
+	text-align:center;
+	position: fixed;
+	text-decoration:none; 
+	font-family: dejaVu Sans Mono, monospace;
+	font-size: 30px;
+	font-weight: bold;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	margin-left: 45%;
+}
 
 .nav {
 	text-align: left;
 	overflow: none;
 	list-style-type: none;
-
 }
 
 .nav a{
@@ -49,7 +60,6 @@ h2 {
 	font-weight: bold;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
-
 }
 
 .nav a:hover {
@@ -57,31 +67,33 @@ h2 {
 	text-decoration: underline;
 }
 
-.nav a.active{
+.nav a#active{
 	color: white;
 }
 
-.recent-list-style {
-	background-color: transparent;
-	position: relative;
-	left: -190px;
-	top: 45px;
-	font-family: plaquette, sans-serif;
-	color: #00303F ; 
-	font-size: 15px; 
-	text-align: center; 	
+/*drop down css from w3 schools:  https://www.w3schools.com/howto/howto_css_dropdown.asp*/
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-.vl { 
-	width: 5px;
-	background-color: #CAE4DB;
-	position: absolute;
-	top: 52px;
-	bottom: 100px;
-	left: 400px;
-	height: 40px;
-	border-top-right-radius: 5px;
+.dropdown-elements {
+  display: none;
+  position: absolute;
 }
+
+.dropdown-elements a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-elements a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-elements {display: block;}
+
+.dropdown:hover .btn {color: white }
 
 .links{
 	position: relative;
@@ -109,17 +121,6 @@ h2 {
 
 .links a:hover {
 	text-decoration: underline;
-}
-
-
-.social a{
-	position: relative;
-	left: 60px;
-	top: 210px;
-	margin-right: 20px;
-	margin-left: 30px;
-	background-color: transparent;
-	display: block;
 }
 
 
@@ -364,6 +365,15 @@ h3 {
 	left: 825px;
 }
 
+.social a{
+	position: relative;
+	left: 60px;
+	top: 250px;
+	margin-right: 20px;
+	margin-left: 30px;
+	background-color: transparent;
+	display: block;
+}
 
 
 
