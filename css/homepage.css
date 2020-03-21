@@ -5,9 +5,10 @@ body {
 	margin: 0;
 	/*overflow: scroll;*/
 	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
-h2 {
+#pgtitle{
 	background-color: #1E1E1E;
 	background-size: auto;
 	display: block;
@@ -25,13 +26,27 @@ h2 {
 	letter-spacing: 2px;
 }
 
+#intro{
+	text-align: left;
+	color: white;
+	margin-left: 500px;
+	font-family: dejaVu Sans Mono, monospace;
+	font-size: 30px;
+	position: fixed;
+}
+
+#dp{
+	margin-left: 940px;
+	position: fixed;
+	bottom: 55px;
+}
 
 .nav {
 	text-align: left;
 	overflow: none;
 	list-style-type: none;
-
 }
+
 /*drop down css from w3 schools:  https://www.w3schools.com/howto/howto_css_dropdown.asp*/
 .dropdown {
   position: relative;
@@ -96,18 +111,16 @@ h2 {
 	font-size: 15px; 
 	text-align: center; 	
 }
-
+/*
 .vl { 
-	width: 5px;
-	background-color: #CAE4DB;
-	position: absolute;
-	top: 52px;
-	bottom: 100px;
-	left: 400px;
-	height: 40px;
-	border-top-right-radius: 5px;
+	width: 2px;
+	background-color: #4cb69f;
+	position: fixed;
+	top: 90px;
+	left: 374px;
+	height: 80px;
 }
-
+*/
 .links{
 	position: relative;
 	left: 300px;
@@ -136,11 +149,13 @@ h2 {
 	text-decoration: underline;
 }
 
-
+.social{
+	position: fixed;
+}
 .social a{
 	position: relative;
 	left: 60px;
-	top: 250px;
+	top: 190px;
 	margin-right: 20px;
 	margin-left: 30px;
 	background-color: transparent;
