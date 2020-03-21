@@ -114,7 +114,18 @@ p{
 	font-size: 30px;
 }
 
-.row {
+#skills{
+	text-align: center;
+	color: white;
+	margin-top: -100px;
+	left: 500px;
+	font-family: dejaVu Sans Mono, monospace;
+	font-size: 30px;
+	position: fixed;
+
+}
+
+/*.row {
 	display: table;
 	position: relative;
 	left: 540px;
@@ -122,9 +133,9 @@ p{
 	background-color: #f6f5f3;
 	padding: 20px;
 	padding-right: -10px;
-}
+}*/
 
-.column{
+/*.column{
 	float: left;
 	margin: 0px 10px 10px 0px;
 	padding: 10px;
@@ -147,17 +158,18 @@ p{
 .row, .column {
 	font-family: plaquette, sans-serif;
 
-}
+}*/
 
+.social{
+	position: fixed;
+}
 .social a{
 	position: relative;
 	left: 60px;
-	top: 250px;
+	top: 190px;
 	margin-right: 20px;
 	margin-left: 30px;
 	background-color: transparent;
 	display: block;
 }
-
-
 
