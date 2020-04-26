@@ -3,9 +3,7 @@
 body {
 	background-color:#1E1E1E ;
 	margin: 0;
-	/*overflow: scroll;*/
-	overflow-x: hidden;
-	overflow-y: hidden;
+	overflow: auto;
 }
 
 #pgtitle{
