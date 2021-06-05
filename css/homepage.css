@@ -24,7 +24,7 @@ body {
 	letter-spacing: 2px;
 }
 
-#intro h2{
+.intro h2{
 	text-align: left;
 	color: white;
 	margin-top: -60px;
@@ -34,7 +34,7 @@ body {
 	position: fixed;
 }
 
-#intro p{
+.intro p{
 	text-align: left;
 	color: white;
 	margin-top: 20px;
@@ -54,6 +54,7 @@ body {
 	text-align: left;
 	overflow: none;
 	list-style-type: none;
+	position: relative;
 }
 
 /*drop down css from w3 schools:  https://www.w3schools.com/howto/howto_css_dropdown.asp*/
@@ -83,7 +84,7 @@ body {
 .dropdown:hover .dropdown-elements {display: block;}
 
 .dropdown:hover .btn {
-	color: white
+	color: white;
 	padding: 12px 20px;
 }
 
