@@ -1,13 +1,20 @@
-* {	box-sizing: border-box;}
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	position: relative;
+	}
 
 body {
-	background-color:#1E1E1E ;
+	/* background-color:#1e1e1e; */
+	background-color:white;
+	scroll-behavior: smooth;
 	margin: 0;
-	overflow: auto;
+	overflow-y: auto;
+	color: black;
 }
 
 #pgtitle{
-	background-color: #1E1E1E;
+	/* background-color: #1E1E1E; */
 	background-size: auto;
 	display: block;
 	text-align: left;
@@ -24,24 +31,22 @@ body {
 	letter-spacing: 2px;
 }
 
-.intro h2{
-	text-align: left;
-	color: white;
-	margin-top: -60px;
-	margin-left: 400px;
+.intro{
+	margin-top: 200px;
+	text-align: center;
+	margin-left: 300px;
 	font-family: dejaVu Sans Mono, monospace;
+	position: relative;
+}
+
+.intro h2{
+	margin-top: -60px;
 	font-size: 30px;
-	position: fixed;
 }
 
 .intro p{
-	text-align: left;
-	color: white;
 	margin-top: 20px;
-	margin-left: 400px;
-	font-family: dejaVu Sans Mono, monospace;
 	font-size: 20px;
-	position: fixed;
 }
 
 #dp{
@@ -54,7 +59,7 @@ body {
 	text-align: left;
 	overflow: none;
 	list-style-type: none;
-	position: relative;
+	position: fixed;
 }
 
 /*drop down css from w3 schools:  https://www.w3schools.com/howto/howto_css_dropdown.asp*/
@@ -64,7 +69,7 @@ body {
 }
 
 .dropdown a#active{
-	color: white;
+	color: black;
 }
 
 .dropdown-elements {
@@ -73,7 +78,6 @@ body {
 }
 
 .dropdown-elements a {
-  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -84,7 +88,7 @@ body {
 .dropdown:hover .dropdown-elements {display: block;}
 
 .dropdown:hover .btn {
-	color: white;
+	color: black;
 	padding: 12px 20px;
 }
 
@@ -106,12 +110,12 @@ body {
 }
 
 .nav a:hover {
-	color: white;
+	color: black;
 	text-decoration: underline;
 }
 
-.nav a#active{
-	color: white;
+.nav a.active{
+	color: black;
 }
 
 .recent-list-style {
@@ -164,6 +168,7 @@ body {
 
 .social{
 	position: fixed;
+	margin-top: 100px;
 }
 .social a{
 	position: relative;
@@ -175,4 +180,44 @@ body {
 	display: block;
 }
 
+#skills{
+	text-align: center;
+	margin-left: 300px;
+	font-family: dejaVu Sans Mono, monospace;
+	margin-top: 80px;
+}
 
+.box-divider{
+	height:90px;
+	background-color: #4cb69f;
+}
+
+#box1{
+	align-items: center;
+	border: 2px solid #4cb69f;
+	height: 400px;
+	margin-right: 600px;
+	text-align: center;
+}
+
+#box1 p,h3,h4{
+}
+
+#box1 h3{
+	margin-top: -35px;
+	color: white;
+}
+
+#box2{
+	margin-top: -400px;
+	align-items: center;
+	border: 2px solid #4cb69f;
+	height: 400px;
+	margin-left: 619px;
+	text-align: center;
+}
+
+#box2 h3{
+	margin-top: -35px;
+	color: white;
+}
