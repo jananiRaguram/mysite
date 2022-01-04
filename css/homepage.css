@@ -201,51 +201,37 @@ body {
 	border-top-left-radius: 25px;
 }
 
-#box1{
-	border: 2px solid #4cb69f;
-	height: 400px;
-	margin-right: 600px;
+.row{
+	height: 380px;
+	margin-right: 15px;
 	text-align: center;
-	border-bottom-left-radius: 25px;
 	border-top-left-radius: 20px ;
 }
 
-#box1 p, ul, #box2 p, ul{
-	margin-top: 20px;
+.col:not(:nth-child(1),:nth-child(2)){
+	border: 2px solid #4cb69f;
+	left:15px;
+	padding-top: 40px;
+}
+
+.col:nth-child(4){
+	border-bottom-left-radius: 20px;
+}
+
+.col p{
 	padding-right: 20px;
 	padding-left: 20px;
 }
 
-#box1 h3{
-	margin-top: 55px;
+.col h3{
+	margin-top: 35px;
 	color: white;
 }
 
-#box1 ul, #box2 ul{
+.col ul{
 	text-align: center;
 	list-style-type: none;
-}
-
-#box1 ul{
-	/* padding-top: 30px; */
-	margin-right: 20px;
-}
-
-#box2{
-	margin-top: -330px;
-	border: 2px solid #4cb69f;
-	height: 330px;
-	margin-left: 619px;
-	text-align: center;
-}
-
-#box2 h3{
-	margin-top: -15px;
-	color: white;
-}
-
-#box2 ul{
-	padding-top: 10px;
+	right:20px;
 }
 
 
@@ -261,11 +247,11 @@ body {
 	margin-left: 250px;
 }
 
-#projects > div{
+.col2{
 	margin: 10px;
 	margin-bottom: 210px;
 	width: 300px;
-	height: 310px;
+	height: 310px; 
 	/* padding: 20px 30px 40px 30px; */
 	float: left;
 	border: 2px solid #00303F;
@@ -273,18 +259,25 @@ body {
 	text-align: center;
 }
 
-#projects > div:hover{
+#projects{
+	left:100px;
+}
+
+.col2:hover{
 	background-color: black;
 }
 
-#projects a{
+.col2 a{
 	margin-top: -10px;
 	color: black;
 	padding: 50px;
 	display: inline-block;
 }
 
-#projects a:hover{
+.col2 a:hover{
 	color: white;
 	text-decoration: none;
-}
+} 
+
+
+
