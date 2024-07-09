@@ -1,20 +1,20 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
 	scroll-behavior: smooth;
-	position: relative;
+
 }
 
 body {
-	/* background-color:#1e1e1e; */
-	background-color:white;
-	scroll-behavior: smooth;
-	margin: 0;
-	overflow-y: auto;
-	color: black;
+	background-color: #54405b;
+	/* #7f7f7f */
+	/* #721c24 */
+	/* 85888c */
+	color: white;
+	font-family: dejaVu Sans Mono, monospace;
 }
 
 #pgtitle{
-	/* background-color: #1E1E1E; */
 	background-size: auto;
 	display: block;
 	text-align: left;
@@ -22,29 +22,29 @@ body {
 	padding-left: 50px;
 	position: relative;
 	bottom: 30px;
-	color: #4cb69f;
+	color: #f2f2f2;
 	border-bottom-style: solid;
-	margin-right: 1160px; 
 	margin-left: 10px;
 	font-family: plaquette, sans-serif;
 	font-size: 30px;
 	letter-spacing: 2px;
+	font-weight: 540;
+	width: 20%;
+	grid-column: 1;
+	grid-row: 1;
+}
+
+#nav-stack{
+	text-align: center;
+	display: block;
 }
 
 #intro{
-	margin-top: 100px;
-	text-align: center;
-	margin-left: 300px;
-	font-family: dejaVu Sans Mono, monospace;
-	position: relative;
-	/* background-color: white; */
-	padding-top: 55px;
-	/* border: 2px; */
-
+	margin-top: 13%;
+	grid-column: 1;
 }
 
 #intro h2{
-	margin-top: -60px;
 	font-size: 30px;
 }
 
@@ -53,52 +53,36 @@ body {
 	font-size: 20px;
 }
 
-#dp{
-	margin-right:20px;
-	transform: rotate(4deg);
-	margin-bottom: -52px;
+p{
+	font-size: 16.5px;
+}
+
+#pol{
+	/* display: block; */
+	width: 350px;
+	/* border-width: 20px; */
+	margin-top: 66px;
+	grid-column: 2;
+	margin-left: 20px;
+}
+
+#me_pic{
+	border-style: solid;
+	border-color: #e2e3f1;
 }
 
 .nav {
 	text-align: left;
-	overflow: none;
 	list-style-type: none;
 	position: fixed;
-}
-
-/*drop down css from w3 schools:  https://www.w3schools.com/howto/howto_css_dropdown.asp*/
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown a#active{
-	color: black;
-}
-
-.dropdown-elements {
-  display: none;
-  position: absolute;
-}
-
-.dropdown-elements a {
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-elements a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-elements {display: block;}
-
-.dropdown:hover .btn {
-	color: black;
-	padding: 12px 20px;
+	grid-column: 1;
+	grid-row: 2;
+	
 }
 
 .nav a{
 	display: block;
-	color: #4cb69f;
+	color: #f2f2f2;
 	padding-top: 20px;
 	margin-left: 70px;
 	margin-right: 1300px; 
@@ -114,8 +98,9 @@ body {
 }
 
 .nav a:hover {
-	color: black;
-	text-decoration: underline;
+	background-color:#e2e3f1;
+	color: #241529;
+	border-radius: 20px;
 }
 
 .nav a.active{
@@ -132,16 +117,7 @@ body {
 	font-size: 15px; 
 	text-align: center; 	
 }
-/*
-.vl { 
-	width: 2px;
-	background-color: #4cb69f;
-	position: fixed;
-	top: 90px;
-	left: 374px;
-	height: 80px;
-}
-*/
+
 .links{
 	position: relative;
 	left: 300px;
@@ -171,111 +147,101 @@ body {
 }
 
 .social{
-	position: fixed;
 	margin-top: 100px;
 }
-.social a{
-	position: relative;
-	left: 60px;
-	top: 190px;
-	margin-right: 20px;
-	margin-left: 30px;
-	background-color: transparent;
-	display: block;
+
+.social a:hover{
+	background-color: #4f5470d9;
 }
 
-#skills{
+.section{
 	text-align: center;
-	margin-left: 300px;
+	margin-left: 450px;
 	font-family: dejaVu Sans Mono, monospace;
-	margin-top: 60px;
-	padding-bottom: 40px;
-	background-color: white;
-	box-sizing: content-box;
-	/* margin-bottom: 100px; */
+	display: grid;
+	margin-right: 40px;
+	margin-bottom: 60px;
+	column-gap: 20px;
 }
 
-.box-divider{
-	height:90px;
-	background-color: #4cb69f;
-	border-top-left-radius: 25px;
-}
-
-.row{
-	height: 380px;
-	margin-right: 15px;
-	text-align: center;
-	border-top-left-radius: 20px ;
-}
-
-.col:not(:nth-child(1),:nth-child(2)){
-	border: 2px solid #4cb69f;
-	left:15px;
-	padding-top: 40px;
-}
-
-.col:nth-child(4){
-	border-bottom-left-radius: 20px;
-}
-
-.col p{
-	padding-right: 20px;
-	padding-left: 20px;
-}
-
-.col h3{
-	margin-top: 35px;
-	color: white;
-}
-
-.col ul{
-	text-align: center;
-	list-style-type: none;
-	right:20px;
-}
-
-
-#projects{
-	/* display: flex;
-  	flex-wrap: wrap; */
-	font-family: dejaVu Sans Mono, monospace;
-	margin-left: 400px;
-	margin-top: 430px;
-}
-
-#projects h2, #projects p{
-	margin-left: 250px;
-}
-
-.col2{
-	margin: 10px;
-	margin-bottom: 210px;
-	width: 300px;
-	height: 310px; 
-	/* padding: 20px 30px 40px 30px; */
-	float: left;
-	border: 2px solid #00303F;
+.skills{
+	padding: 30px;
 	border-radius: 20px;
 	text-align: center;
+	background-color: #4f5470d9;
 }
 
-#projects{
-	left:100px;
+.desc{
+	text-align: center;
+	border-bottom: solid #f2f2f2;
 }
 
-.col2:hover{
+.list{
+	margin-top: 30px;
+}
+
+.list ul{
+	list-style-type: none;
+	padding-inline-start: 0%;
+	text-align: center;
+}
+
+#lang-list ul{
+	padding-left: 40px;
+}
+
+#lang-list ul li:first-child{
+	list-style-type: none;
+}
+
+#lang-list li {
+	list-style-type: disc;
+ 	float: left;
+ 	padding:5px;
+	margin: 10px;
+	padding-right: 10px;
+}
+
+#languages{
+	grid-column: 1
+}
+#experience{
+	grid-column: 2;
+}
+
+.row2{
+	text-align: center;
+	border-top-left-radius: 20px ;
+	display: grid;
+	grid-template-columns: repeat(2, 50%)
+}
+
+#proj-intro{
+	margin: 40px 0px;
+}
+
+.proj-desc{
+	margin: 10px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	background-color: #e2e3f1;
+}
+
+
+.proj-desc:hover{
 	background-color: black;
 }
 
-.col2 a{
+.proj-desc a{
 	margin-top: -10px;
 	color: black;
 	padding: 50px;
 	display: inline-block;
 }
 
-.col2 a:hover{
-	color: white;
+.proj-desc a:hover{
+	color: #e2e3f1;
 	text-decoration: none;
 } 
 
