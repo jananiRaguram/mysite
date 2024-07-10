@@ -2,7 +2,6 @@
 	box-sizing: border-box;
 	margin: 0;
 	scroll-behavior: smooth;
-
 }
 
 body {
@@ -222,28 +221,30 @@ p{
 
 .proj-desc{
 	margin: 10px;
-	float: left;
+	/* float: left; */
 	border-radius: 20px;
 	text-align: center;
 	background-color: #e2e3f1;
 }
 
-
-.proj-desc:hover{
-	background-color: black;
-}
-
 .proj-desc a{
-	margin-top: -10px;
 	color: black;
 	padding: 50px;
 	display: inline-block;
 }
 
 .proj-desc a:hover{
+	background-color: black;
 	color: #e2e3f1;
 	text-decoration: none;
 } 
+
+.card{
+	color: #00303F;
+	border-radius: 20px;
+}
+
+
 
 
 
